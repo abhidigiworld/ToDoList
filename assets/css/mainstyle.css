@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bodytop {
+    background: url(image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+header {
+    display: flex;
+    color: aliceblue;
+}
+
+.logobox {
+    position: relative;
+    padding: 5px;
+    width: 16%;
+}
+
+.logo {
+    color: aliceblue;
+}
+
+.logobase {
+    position: absolute;
+    top: 67%;
+    left: 7%;
+    font-size: .5rem;
+}
+
+.menu {
+    list-style: none;
+    width: 84%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.pagal {
+    background-color: #25c58a;
+}
+
+.item {
+    text-align: center;
+    margin: 5px 15px;
+    padding: 10px;
+}
+
+.itemslink {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* CENTER PART OF THE WEBISTE START */
+
+.maintask {
+    position: relative;
+    height: 500px;
+}
+
+.task {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn_learn {
+    margin: 5px 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* to do container start  */
+
+.to_do_container {
+    text-align: center;
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.todolist {
+    text-align: left;
+    list-style-type: none;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.todolist li {
+    padding: .5rem;
+    background: #0d2019;
+    border-radius: 12px;
+    margin: 5px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.inputtodo {
+    width: 75%;
+    margin: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 5px;
+    height: 35px;
+    border: 2px solid #20441d;
+    border-radius: 5px;
+}
+
+.to_do_box {
+    padding: 27px;
+}
+
+.todo_text {
+    font-size: 1.8rem;
+    color: #0d2019;
+}
+
+input[type="submit"] {
+    width: 19%;
+    padding: 10px;
+    border: none;
+    background: #0d2019;
+    color: #fff;
+    min-width: 100px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+
+/* signup part start  */
+
+.signup {
+    margin: 2rem;
+}
+
+.sign {
+    padding: 1rem;
+}
+
+.SU {
+    float: right;
+}
+
+fieldset {
+    padding: 1rem;
+    background: #20441d2c;
+    border-radius: 6px;
+    font-size: 2rem;
+    border: 2px solid #0d2019;
+}
+
+.sign label {
+    display: block;
+    margin: 0px 10px 0px 3px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.todo_btn{
+    padding: 5px;
+    margin: 0px 5px;
+    background: rgb(240 240 240);
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.todo_item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+textarea {
+    width: 100%;
+    padding: 5px;
+    resize: vertical;
+    border: 2px solid #20441d;
+    border-radius: 5px;
+}
+
+.datainput {
+    width: 100%;
+    display: block;
+}
